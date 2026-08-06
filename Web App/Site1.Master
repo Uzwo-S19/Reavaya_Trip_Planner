@@ -1,0 +1,179 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ReavayaWebNew.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+  <title>Rea Vaya Website</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+  
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="https://preview.colorlib.com/theme/jobsco/site.webmanifest">
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/css/slicknav.css">
+<link rel="stylesheet" href="assets/css/animate.min.css">
+<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="assets/css/themify-icons.css">
+<link rel="stylesheet" href="assets/css/slick.css">
+<link rel="stylesheet" href="assets/css/nice-select.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+    
+</head>
+   
+<body>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+   <footer>
+<div class="footer-area footer-padding gray-bg">
+<div class="footer-wrapper ">
+<div class="container">
+<div class="row d-flex justify-content-between">
+
+    <!--
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+<div class="single-footer-caption mb-50">
+<div class="single-footer-caption mb-30">
+  
+<div class="footer-logo mb-25">
+  
+<a href="index.html"><img src="assets/img/Rea_Vaya_logo.svg"  alt=""></a>
+</div>
+<div class="footer-tittle">
+<div class="footer-pera">
+<p>The automated process starts as soon as your clothes go into the machine.The outcome is gleaming clothes.</p>
+</div>
+</div>
+<div class="footer-social">
+<a href="index.html#"><i class="fab fa-instagram"></i></a>
+<a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
+<a href="index.html#"><i class="fab fa-twitter"></i></a>
+</div>
+</div>
+</div>
+</div>-->
+    <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
+
+    <!--<div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">-->
+	<div class="single-footer-caption mb-50">
+	<div class="footer-tittle">
+	<h4>Contact</h4>
+		<p><i class="fas fa-map-marker-alt"></i> 61-67 Rissik St, Johannesburg, 2000</p>
+		<p><i class="fas fa-phone-alt"></i> Phone: (0039) 333 12 68 347</p>
+	    <p ><i class="fas fa-envelope"></i> Email: <a href="reaVaya@domain.com">reaVaya@domain.com </a></p>
+		            	
+	</div>
+	</div>
+	</div>
+
+
+
+
+
+<div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+<div class="single-footer-caption mb-50">
+<div class="footer-tittle">
+<h4>Useful links</h4>
+<ul>
+<li><a href="index.html#">About us</a></li>
+<li><a href="index.html#">Contact us</a></li>
+<li><a href="index.html#">Our servives</a></li>
+<li><a href="index.html#">Terms and conditions</a></li>
+<li><a href="index.html#">Support</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+<div class="single-footer-caption mb-50">
+<div class="footer-tittle">
+<h4>Subscribe Newsletter</h4>
+<p>Subscribe newsletter to get updates about Rea Vaya.</p>
+</div>
+
+<div class="footer-form">
+<div id="mc_embed_signup">
+<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part" novalidate="true">
+<input type="email" name="Email" id="newsletter-form-email" placeholder="Enter your email">
+<div class="form-icon">
+<button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm">
+Subscribe
+</button>
+</div>
+<div class="mt-10 info"></div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer-bottom-area">
+<div class="container">
+<div class="footer-border">
+<div class="row d-flex align-items-center">
+<div class="col-xl-12 ">
+<div class="footer-copy-right text-center">
+<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" rel="nofollow noopener">Colorlib</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<div id="back-top">
+<a title="Go to Top" href="index.html#"> <i class="fas fa-level-up-alt"></i></a>
+</div>
+
+
+<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/jquery.slicknav.min.js"></script>
+<script src="assets/js/range.js"></script>
+
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.js"></script>
+<script src="assets/js/jquery.nice-select.min.js"></script>
+
+<script src="assets/js/contact.js"></script>
+<script src="assets/js/jquery.form.js"></script>
+<script src="assets/js/jquery.validate.min.js"></script>
+<script src="assets/js/mail-script.js"></script>
+<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7c28a3ecbfae9cf8","version":"2023.4.0","b":1,"token":"cd0b4b3a733644fc843ef0b185f98241","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
